@@ -207,7 +207,7 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+		margin: auto;
 		max-width: calc(100% - 100px);
 		width: 1200px;
 	}
@@ -243,7 +243,8 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
+		justify-content: center;
 	}
 
 		.row > * {
@@ -372,6 +373,8 @@ input, select, textarea {
 
 		.row > .col-12 {
 			width: 100%;
+			justify-content: center;
+			align-items: center;
 		}
 
 		.row > .off-12 {
